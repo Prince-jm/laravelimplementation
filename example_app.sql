@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 27, 2024 at 07:52 AM
+-- Generation Time: Oct 31, 2024 at 11:23 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -99,7 +99,7 @@ CREATE TABLE `information` (
 --
 
 INSERT INTO `information` (`id`, `name`, `address`, `email`, `contact`, `objective`, `tertiary`, `tersy`, `secondary1`, `secsy1`, `secondary2`, `secsy2`, `primary`, `prisy`, `birthdate`, `age`, `placeofbirth`, `gender`, `religion`, `nationality`, `civilstatus`, `signature`, `created_at`, `updated_at`) VALUES
-(1, 'Thristan Carl DJ. Reyna', '099 San Jose St. Dampol 2nd B, Pulilan, Bulacan', 'Email: thristancarlreyna@gmail.com', 'Contact No.: 0961-624-7019', 'I am looking for a job which will enable me to grow professionally and apply my attributes in resourcefulness, innovation, and flexibility. My aspiration is to make beneficial stock to the leverage of your esteemed organization while applying myself as a hardworking and participating team member.', 'Baliwag Polytechnic College, Baliuag, Bulacan', 'S.Y.: 2021 - Present', 'Academia De Pulilan Inc., Cut-Cot Pulilan, Bulacan', 'S.Y.: 2019 – 2021', 'Engr. Virgilio V. Dionisio Memorial High School, Poblacion Pulilan, Bulacan', 'S.Y.: 2014 – 2019', 'Dampol B Elementary School, Dampol 2nd B Pulilan, Bulacan', 'S.Y.: 2008 - 2014', 'May 11, 2002', '22 years old', 'Pulilan, Bulacan', 'Male', 'Roman Catholic', 'Filipino', 'Single', 'THRISTAN CARL DJ. REYNA', NULL, NULL);
+(1, 'Jayson S. Bantog', 'Riverside, Pinac pinacan, San rafael, Bulacan', 'Email: bantogjayson72@gmail.com', 'Contact No.: 0927-551-9855', 'Seeking a position in life to utilize my skills and abilities and achieve professional growth while being resourceful, innovative, and flexible. To add valuable assets to your esteemed organization as an active member.', 'Baliwag Polytechnic College, Baliuag, Bulacan', 'S.Y.: 2021 - Present', 'Tawiran School of Fisheries', 'S.Y.: 2012 – 2016', '', '', ' Obando Elementary School', 'S.Y.: 2006 - 2012', 'September 7,1994', '39 years old', 'Valenzuela City', 'Male', 'Roman Catholic', 'Filipino', 'Single', 'JAYSON S. BANTOG', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -190,6 +190,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
+('Fu3dSCJ14Tlwg2Mb6UObTEMihvAHbBj9BDhbLATS', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoidlBsVUg1RFo5Z2xDd3Jlb2loYlplRll1b3pFWHFJQ3lHYk9Hd2pBaCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1730275151),
 ('Y3jOum9rUMWExNsVX1AGMOFY3UwrmxBiXe0sjuOv', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoicVExMmxzMFowN1l0eXpPeU1UT1lnUW5zTGN3ZWVjZ2hJS2JndHVVUiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1730011712);
 
 -- --------------------------------------------------------
